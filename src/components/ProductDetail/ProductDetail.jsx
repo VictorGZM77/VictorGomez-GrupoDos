@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import useCartStore from '../../stores/useCartStore'; 
-import products from '../../data/asyncMock';
+import products from '/src/Data/asyncMock';
 
 const ProductDetail = () => {
   const { id } = useParams();  
